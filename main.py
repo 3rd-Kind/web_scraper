@@ -9,7 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Create Path to store images.
-path = "C:\\Users\\User\\OneDrive\\Desktop"
+path = os.path.dirname(os.path.abspath(__file__))
 
 # Instantiate an Options object
 options = Options()
